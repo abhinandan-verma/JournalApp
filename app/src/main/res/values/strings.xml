@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">JournalApp</string>
     <string name="email">Email</string>
+    <string name="create_account">Create Account</string>
+    <string name="welcome_to_journal_app">Welcome To Journal App</string>
+    <string name="log_in">Log In</string>
 </resources>

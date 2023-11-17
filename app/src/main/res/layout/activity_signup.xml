@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient_main"
     tools:context=".SignupActivity">
 
     <TextView
@@ -21,12 +22,13 @@
 
     <EditText
         android:id="@+id/emailCreate"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        android:layout_height="59dp"
         android:layout_marginStart="24sp"
         android:layout_marginTop="128dp"
         android:layout_marginEnd="24sp"
         android:hint="@string/email"
+        android:textColorHint="@color/black"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -35,14 +37,15 @@
 
     <EditText
         android:id="@+id/passwordCreate"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="358dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="24sp"
         android:layout_marginTop="28dp"
+        android:layout_marginEnd="24sp"
         android:hint="Password"
+        android:textColorHint="@color/black"
         android:inputType="textPassword"
         android:textSize="18sp"
-        android:layout_marginStart="24sp"
-        android:layout_marginEnd="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -51,11 +54,12 @@
 
     <EditText
         android:id="@+id/userName_create"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="372dp"
+        android:layout_height="61dp"
         android:layout_marginStart="24sp"
         android:layout_marginEnd="24sp"
         android:hint="Username"
+        android:textColorHint="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/emailCreate"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
