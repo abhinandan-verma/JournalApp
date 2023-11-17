@@ -4,4 +4,6 @@
     <string name="create_account">Create Account</string>
     <string name="welcome_to_journal_app">Welcome To Journal App</string>
     <string name="log_in">Log In</string>
+    <string name="save_button" ></string>
+    <string name="save_post">Save Post</string>
 </resources>

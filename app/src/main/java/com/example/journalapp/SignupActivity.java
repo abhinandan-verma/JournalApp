@@ -27,6 +27,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 
+import util.JournalUser;
+
 public class SignupActivity extends AppCompatActivity {
 
     EditText password_create;
@@ -126,6 +128,11 @@ public class SignupActivity extends AppCompatActivity {
 
                                                                     // If the user is registered successfully
                                                                     //Move the User to the AddJournal Activity
+
+                                                                    //Getting use of Global Journal USER
+                                                                    JournalUser journalUser = JournalUser.getInstance();
+                                                                    journalUser.setUserId(currentUserId);
+                                                                    journalUser.setUsername(name);
 
                                                                     Intent intent = new Intent(SignupActivity.this, AddJournalActivity.class);
                                                                     intent.putExtra("Username",name);
