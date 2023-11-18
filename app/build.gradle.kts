@@ -50,4 +50,7 @@ dependencies {
 
     //Authentication
     implementation("com.google.firebase:firebase-auth")
+
+    //Firebase Storage
+    implementation("com.google.firebase:firebase-storage")
 }

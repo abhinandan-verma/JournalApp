@@ -16,6 +16,9 @@
         android:theme="@style/Theme.JournalApp"
         tools:targetApi="31">
         <activity
+            android:name=".JournalListActivity"
+            android:exported="false" />
+        <activity
             android:name=".AddJournalActivity"
             android:exported="false" />
         <activity

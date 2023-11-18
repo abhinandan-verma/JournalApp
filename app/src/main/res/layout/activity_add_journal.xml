@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_journal"
+    android:background="@drawable/gradient4"
     tools:context=".AddJournalActivity">
 
     <ImageView
@@ -26,6 +26,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="248dp"
         android:text="Post Title"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
         android:textColor="@color/white"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,7 +40,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
         android:text="Post Date"
+        android:paddingStart="10dp"
         android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -61,9 +66,12 @@
         android:layout_width="395dp"
         android:layout_height="40dp"
         android:layout_marginBottom="364dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="8dp"
         android:background="@drawable/input_outline"
         android:ems="10"
         android:hint="Post Title"
+        android:padding="10dp"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -89,8 +97,10 @@
 
     <ProgressBar
         android:id="@+id/post_progressBar"
+
         style="?android:attr/progressBarStyle"
         android:layout_width="wrap_content"
+        android:outlineAmbientShadowColor="#FDD835"
         android:layout_height="wrap_content"
         android:layout_marginBottom="236dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -104,7 +114,7 @@
         android:id="@+id/post_save_journal_BTN"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
+        android:background="#FECF03"
         android:text="@string/save_post"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"

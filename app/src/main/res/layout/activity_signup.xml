@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_main"
+    android:background="@drawable/gradient3"
     tools:context=".SignupActivity">
 
     <TextView
@@ -28,6 +28,7 @@
         android:layout_marginTop="128dp"
         android:layout_marginEnd="24sp"
         android:hint="@string/email"
+        android:textColor="@color/black"
         android:textColorHint="@color/black"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,6 +44,7 @@
         android:layout_marginTop="28dp"
         android:layout_marginEnd="24sp"
         android:hint="Password"
+        android:textColor="@color/black"
         android:textColorHint="@color/black"
         android:inputType="textPassword"
         android:textSize="18sp"
@@ -59,6 +61,7 @@
         android:layout_marginStart="24sp"
         android:layout_marginEnd="24sp"
         android:hint="Username"
+        android:textColor="@color/black"
         android:textColorHint="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/emailCreate"
         app:layout_constraintEnd_toEndOf="parent"
@@ -73,6 +76,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
         android:text="Sign Up"
+        android:background="#07F603"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
